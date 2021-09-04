@@ -1323,3 +1323,13 @@ ion-app.app-root {
     }
   }
 }
+//Progress Bar Color
+/*Progress Bar*/
+ion-app.app-root core-progress-bar progress .progress-bar-fallback span,
+ion-app.app-root core-progress-bar progress[value]::-webkit-progress-value
+{
+  background-color:#5cb85c!important;
+}
+ion-app.app-root.md core-course-module .core-module-title core-format-text{
+  color:#0064d2 !important;
+}
